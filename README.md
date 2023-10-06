@@ -26,7 +26,7 @@
 ![Mcburgers](https://github.com/DragontitanB/McdonalsPage/assets/107432108/44aaa9a9-6b62-4e97-8ee1-540b275f4046)
 ![Mcpollo](https://github.com/DragontitanB/McdonalsPage/assets/107432108/64ebad6e-00f0-4e96-847b-4aa0d6382781)
 
-<b>McDonald's Experience<b> is a web platform that allows you to personalize your McDonald's meal order. Explore our menu, choose from a variety of delicious options, and customize your burger, fries, and beverages to your liking. With McDonald's Experience, you have the freedom to create the perfect meal tailored to your taste buds. Say goodbye to one-size-fits-all fast food and enjoy a unique dining experience at McDonald's."
+<b>McDonald's Experience<b> is a web platform that allows you to personalize your McDonald's meal order. Explore our menu, choose from a variety of delicious options, and customize your burger, fries, and beverages to your liking. With McDonald's Experience, you have the freedom to create the perfect meal tailored to your taste buds. Say goodbye to one-size-fits-all fast food and enjoy a unique dining experience at McDonald's.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
