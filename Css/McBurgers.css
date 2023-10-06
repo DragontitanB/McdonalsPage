@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #d22328;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Espacio entre la imagen y el contenido */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .Nav-Options {
+    background-color: #ffc107;
+    border-radius: 6px;
+    font-size: large;
+  }
+
+  /* Estilo para el h1 */
+  .Titulo h1 {
+  font-family: "Lato", sans-serif; /* Establece la fuente deseada */
+  font-size: 2.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
+  text-align: center; /* Centra horizontalmente dentro del contenedor */
+  color: #333; /* Cambia el color del texto si lo deseas */
+  margin: 38px;
+}
+/* Estilo para el párrafo */
+.Titulo p {
+  font-family: "Lato", sans-serif; /* Establece la fuente deseada */
+  text-align: center; /* Centra horizontalmente dentro del contenedor */
+  font-size: 1.1rem;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.card {
+  margin: 60px; /* Espacio entre las cartas */
+  background-color: #f8f8f8;
+}
+/* Estilo para el título de Burgers */
+.TituloBurgers {
+  position: relative;
+}
+
+.TituloBurgers::after {
+  content: '';
+  position: absolute;
+  width: 195px; /* Ancho deseado */
+  height: 4px;
+  bottom: 0;
+  left: calc(50% - 97.5px); /* Centra la animación debajo del texto "Burgers" */
+  background-color: #d22328;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.6s ease-out;
+}
+
+.TituloBurgers:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.Burgers{
+  display: flex;
+  flex-direction: row;
+}
+.Burgers h3{
+  text-align: center;
+}
+.card-img-top{
+  transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24); 
+}
+.card-img-top:hover, :focus {
+  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}

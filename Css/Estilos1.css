@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ejemplo de una media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  /* Estilos específicos para pantallas pequeñas */
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #d22328;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Espacio entre la imagen y el contenido */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+.Nav-Options {
+  background-color: #ffc107;
+  border-radius: 6px;
+  font-size: large;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+/* Estilos del carrusel de imágenes */
+.carousel {
+  width: 100%;
+  max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 20px auto; /* Centra el carrusel horizontalmente */
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  display: none; /* Oculta las imágenes por defecto */
+}
+/* Estilos del card-container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cartas se envuelvan a la siguiente línea si no caben en el ancho de la pantalla */
+  justify-content: center; /* Centra las cartas horizontalmente en su contenedor */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para cada carta individual */
+.card {
+  margin: 60px; /* Espacio entre las cartas */
+  background-color: #f8f8f8;
+  border: 1px solid rgba(0, 0, 0, 0); /* Configura el borde con transparencia */
+  max-height: 500px; /* Cambia esto según tu preferencia */
+  overflow: hidden; /* Oculta el contenido que desborde */
+}
+
+/* Estilo para el contenido dentro de las cartas */
+.card-body {
+  padding: 5px; /* Espacio interno del contenido */
+}
+
+.ImgMC {
+  width: 100px; /* Ancho de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+

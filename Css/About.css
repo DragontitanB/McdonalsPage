@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #d22328;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Espacio entre la imagen y el contenido */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+.Nav-Options {
+  background-color: #ffc107;
+  border-radius: 6px;
+  font-size: large;
+}
+
+/* Estilo para el contenedor del h1 */
+.First-Block {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección de los elementos a columnas */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 80vh; /* Ajusta la altura según tus preferencias */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Estilo para el h1 */
+.First-Block h1 {
+  font-family: "Lato", sans-serif; /* Establece la fuente deseada */
+  font-size: 2.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
+  text-align: center; /* Centra horizontalmente dentro del contenedor */
+  color: #333; /* Cambia el color del texto si lo deseas */
+  margin: 38px;
+  white-space: nowrap; 
+  
+  width: 13ch;
+  animation: typing 1s steps(12);
+  overflow: hidden;
+}
+/*Animacion de tecleado*/
+@keyframes typing{
+  from { width: 0;}
+}
+
+/* Estilo para el párrafo */
+.First-Block p {
+  font-family: "Lato", sans-serif; /* Establece la fuente deseada */
+  text-align: center; /* Centra horizontalmente dentro del contenedor */
+  font-size: 1.1rem;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Estilo para la imagen */
+.First-Block img {
+  width: 800px; /* Ancho deseado */
+  height: 500px; /* Altura deseada */
+  border-radius: 20px;
+  margin-top: 20px; /* Añade margen superior para crear espacio entre el párrafo y la imagen */
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hamburguesas y papa de calidad disfruta con McDonald'sRD"
+    />
+    <title>McDonald's</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/IMG/icons8-mcdonalds-200.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="/Css/Estilos1.css" />
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <a href="index.html">
+        <img class="ImgMC" src="/IMG/Donals-logo.png" alt="Logo McDonald" />
+      </a>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #ffc107;">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" >
+              <div class="Nav-Options">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </div>
+              </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            id="SlideButton"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            id="SlideButton"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            id="SlideButton"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <!-- slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://mcdonalds.com.gt/imagen/carousel-promociones/1688448894_020_WebSiteCorporativo_BannerPromocional_BestBurger_1600x600_GT.jpg"
+              alt="Los Angeles"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://mcdonalds.com.gt/imagen/carousel-promociones/1688448894_020_WebSiteCorporativo_BannerPromocional_BestBurger_1600x600_GT.jpg"
+              alt="Chicago"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://mcdonalds.com.gt/imagen/carousel-promociones/1688448894_020_WebSiteCorporativo_BannerPromocional_BestBurger_1600x600_GT.jpg"
+              alt="New York"
+              class="d-block w-100"
+            />
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <!--Cards/Productos-->
+      <div class="card-container">
+        <div class="d-flex justify-content-center">
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="IMG\MCBURGERS.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>McBurgers</b></h5>
+              <p class="card-text">
+                Aquí encontradas las diferentes McBurgers:<br />
+                Big Mac, Bacon Triple, McBurger Supreme, Cuarto del Libra, Doble
+                cuarto de Libra
+              </p>
+              <a href="McBurgers.html" class="btn btn-primary">Ver las opciones</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="IMG\6-mcpollo-2015.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>McPollo</b></h5>
+              <p class="card-text">
+                Aquí encontradas las diferentes McPollo:<br />
+                Chicken Mac, Crispy Chicken, Spicy Crispy Chicken, Deluxe Crispy
+                Chicken, McNuggets de 6-10-20, McTiras de 5-3,
+              </p>
+              <a href="Mcpollo.html" class="btn btn-primary">Ver las opciones</a>
+            </div>
+          </div>
+
+          <div class="card ml-auto" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="IMG\MCWRAPS.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Wraps</b></h5>
+              <p class="card-text">
+                Aquí encontradas los diferentes Wraps:<br />
+                McWrap Bacon Crispy, McWrap Bacon Grilled, McWrap Ranch Crispy,
+                McWrap Ranch Grilled, Snack Wrap Crispy, Snack Wrap Grilled
+              </p>
+              <a href="#" class="btn btn-primary">Ver las opciones</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="IMG\McAhorro.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>McAhorro</b></h5>
+              <p class="card-text">
+                Aquí encontradas los diferentes McAhorro:<br />
+                Triple Carne, Doble carne Deluxe, Doble Pollo Deluxe, Cheese
+                Deluxe, Sándwich de Pollo.
+              </p>
+              <a href="#" class="btn btn-primary">Ver las opciones</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="/IMG/Cajita-Feliz.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Cajita Feliz</b></h5>
+              <p class="card-text">
+                Aquí encontradas las diferentes Cajitas Feliz Combo:<br />
+                Cajita Felix Niggets 4-6, Cajita Feliz Hamburguesa, Cajita Feliz
+                CheeseBurgers.
+              </p>
+              <a href="#" class="btn btn-primary">Ver las opciones</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://static.wixstatic.com/media/0759c8_5b0b715c456a463fa81b58ecf886def5~mv2.png/v1/crop/x_0,y_91,w_1080,h_897/fill/w_278,h_231,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Snacks_038.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Snacks</b></h5>
+              <p class="card-text">
+                Aquí encontradas los diferentes Snacks:<br />
+                Papa Grande, Papa Mediana, Papa Regular, Hamburguesa,
+                CheeseBurgers, Snack Wrap Crispy, Snack Wrap Grilled.
+              </p>
+              <a href="#" class="btn btn-primary">Ver las opciones</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="IMG\HeladoMC2.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Postres</b></h5>
+              <p class="card-text">
+                Aquí encontradas las diferentes Postres:<br />
+                Mcflurry Peanut, Mcflurry Oreo, Mcflurry M&M, Sundae de
+                Chocolate, Sundae de Caramelo, Sundae de Fresa, Pastel de
+                Manzana, Pastel de Fresa, Pinta de Helado.
+              </p>
+              <a href="#" class="btn btn-primary">Ver las opciones</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="IMG\BebidasMC.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Bebidas</b></h5>
+              <p class="card-text">
+                Aquí encontradas las diferentes Bebidas:<br />
+                Coca-cola, Coca-cola Sin Azúcar, Sprite, Refresco Rojo, Refresco
+                de Uva, Agua.
+              </p>
+              <a href="#" class="btn btn-primary">Ver las opciones</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="IMG\SalsasMC.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Salsas</b></h5>
+              <p class="card-text">
+                Aquí encontradas las diferentes Salsas:<br />
+                Aderezo BBQ, Aderezo Agridulce, Aderezo Ranch, Aderezo Buffalo,
+                Aderezo Hot Mustard.
+              </p>
+              <a href="#" class="btn btn-primary">Ver las opciones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>&copy; 2023 McDonald's</p>
+    </footer>
+    <script src="JS\IndexJS.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
